@@ -4,7 +4,7 @@
   --white-text-color: #ffffff;
   --primary-bg-color: #ffffff;
   --accent-color: #2196f3;
-  --icon-color: #AFB1B8;
+  --icon-color: #afb1b8;
 }
 
 p,
@@ -83,7 +83,6 @@ body {
 .site-nav {
   display: flex;
 }
-
 
 /* logo */
 .logo {
@@ -166,8 +165,7 @@ body {
 
 .hero {
   background-color: #2f303a;
-  background-image: linear-gradient(#2F303A66, #2F303A66), 
-                    url(../images/Hero-bg.jpg);
+  background-image: linear-gradient(#2f303a66, #2f303a66), url(../images/Hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
@@ -216,7 +214,7 @@ body {
 /* Секции */
 .section {
   padding-top: 94px;
-  padding-bottom: 94px;  
+  padding-bottom: 94px;
 }
 
 .section-title {
@@ -233,7 +231,7 @@ body {
 }
 
 .feature-list-item {
-  width: calc((100% - 3*30px)/4);
+  width: calc((100% - 3 * 30px) / 4);
   margin-right: 30px;
 }
 
@@ -247,7 +245,7 @@ body {
   margin-bottom: 30px;
   padding: 25px 100px;
 
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .feature-list-title {
@@ -267,12 +265,12 @@ body {
   padding-top: 0;
 }
 
-.work-list  {
+.work-list {
   display: flex;
 }
 
 .work-list-item {
-  width: calc((100% - 2*30px)/3);
+  width: calc((100% - 2 * 30px) / 3);
   margin-right: 30px;
 }
 
@@ -290,16 +288,15 @@ body {
 }
 
 .team-list-item {
-  width: calc((100% - 3*30px)/4);
+  width: calc((100% - 3 * 30px) / 4);
   margin-right: 30px;
 
   background-color: #ffffff;
 
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
-              0px 1px 1px rgba(0, 0, 0, 0.14), 
-              0px 2px 1px rgba(0, 0, 0, 0.2);
-  }
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
 
 .team-list-item:last-child {
   margin-right: 0;
@@ -507,7 +504,7 @@ body {
   padding: 6px 22px;
   border-radius: 4px;
   border: 1px solid transparent;
-  
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -516,7 +513,7 @@ body {
   text-align: center;
   color: var(--main-text-color);
   background: #f5f4fa;
- }
+}
 
 .filter-list-btn:hover,
 .filter-list-btn:focus {
@@ -531,7 +528,7 @@ body {
 }
 
 .projects-list-item {
-  width: calc((100% - 60px)/3);
+  width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -540,7 +537,7 @@ body {
   margin-right: 0;
 }
 
-.projects-list-item:nth-last-child(-n+3) {
+.projects-list-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
 
